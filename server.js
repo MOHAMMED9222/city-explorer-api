@@ -1,6 +1,7 @@
 'use strict';
 const express = require('express');
 const cors = require('cors');
+
 require('dotenv').config();
 const weather = require('./modules/weather');
 const getMovie = require('./modules/movie');

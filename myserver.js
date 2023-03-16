@@ -16,7 +16,6 @@ let data = require('./weather.json');
 
 // we must include cors if we want to share resources over the web
 const cors = require('cors');
-const axios = require('axios');
 const getMovies = require('./modules/movie');
 const getWeather = require('./modules/weather');
 
